@@ -20,6 +20,7 @@ public class BJ_2884 {
         int hour = totalMinute / 60;
         int minute = totalMinute - (hour * 60);
 
+        //출력
         System.out.printf("%d %d", hour, minute);
 
     }
