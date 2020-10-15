@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/personal/BJ_11718.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personal/BJ_11719.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_1149.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_11718.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_11718.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_11718">
-    <configuration name="BJ_10953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_10953" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="personal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BJ_11719">
     <configuration name="BJ_11021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.BJ_11021" />
       <module name="JavaStudy" />
@@ -107,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BJ_11719" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.BJ_11719" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="personal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_11719" />
         <item itemvalue="Application.BJ_11718" />
         <item itemvalue="Application.BJ_1149" />
         <item itemvalue="Application.BJ_11022" />
         <item itemvalue="Application.BJ_11021" />
-        <item itemvalue="Application.BJ_10953" />
       </list>
     </recent_temporary>
   </component>
