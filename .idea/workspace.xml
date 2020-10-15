@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_2445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_10991.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_2445">
+  <component name="RunManager" selected="Application.BJ_10991">
     <configuration name="BJ_10818" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bronze.BJ_10818" />
       <module name="JavaStudy" />
@@ -53,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_1924" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bronze.BJ_1924" />
+    <configuration name="BJ_10991" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_10991" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_10991" />
         <item itemvalue="Application.BJ_2445" />
         <item itemvalue="Application.BJ_2442" />
         <item itemvalue="Application.BJ_2438" />
         <item itemvalue="Application.BJ_10818" />
-        <item itemvalue="Application.BJ_1924" />
       </list>
     </recent_temporary>
   </component>
