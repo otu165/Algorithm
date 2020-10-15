@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/personal/BJ_11718.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/personal/BJ_1149.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/personal/BJ_1149.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personal/BJ_1149.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_1149">
+  <component name="RunManager" selected="Application.BJ_11718">
     <configuration name="BJ_10953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="personal.BJ_10953" />
       <module name="JavaStudy" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2884" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_2884" />
+    <configuration name="BJ_11718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.BJ_11718" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_11718" />
         <item itemvalue="Application.BJ_1149" />
         <item itemvalue="Application.BJ_11022" />
         <item itemvalue="Application.BJ_11021" />
         <item itemvalue="Application.BJ_10953" />
-        <item itemvalue="Application.BJ_2884" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
