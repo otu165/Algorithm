@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="" />
+    <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_1008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_1008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_10950.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_10950.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_10951.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_10951.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_10953.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_10953.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_11021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_11021.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_11022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_11022.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_1149.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_1149.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_11718.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_11718.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_11719.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_11719.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_11720.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_11720.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_14681.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_14681.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_2741.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_2741.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personal/BJ_2884.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bronze/BJ_2884.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +53,11 @@
   </component>
   <component name="RunManager" selected="Application.BJ_2741">
     <configuration name="BJ_1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_1149" />
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_1149" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.*" />
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,11 +66,11 @@
       </method>
     </configuration>
     <configuration name="BJ_11718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_11718" />
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_11718" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.*" />
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,11 +79,11 @@
       </method>
     </configuration>
     <configuration name="BJ_11719" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_11719" />
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_11719" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.*" />
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="BJ_11720" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_11720" />
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_11720" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.*" />
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +105,11 @@
       </method>
     </configuration>
     <configuration name="BJ_2741" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.BJ_2741" />
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_2741" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personal.*" />
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
