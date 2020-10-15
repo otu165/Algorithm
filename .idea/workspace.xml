@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_2442.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_2445.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_2442">
+  <component name="RunManager" selected="Application.BJ_2445">
     <configuration name="BJ_10818" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bronze.BJ_10818" />
       <module name="JavaStudy" />
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bronze.BJ_2739" />
+    <configuration name="BJ_2445" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_2445" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_2445" />
         <item itemvalue="Application.BJ_2442" />
         <item itemvalue="Application.BJ_2438" />
         <item itemvalue="Application.BJ_10818" />
         <item itemvalue="Application.BJ_1924" />
-        <item itemvalue="Application.BJ_2739" />
       </list>
     </recent_temporary>
   </component>
