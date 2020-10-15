@@ -25,7 +25,6 @@ public class BJ_1149 {
         }
 
         //풀이
-
         //기준이 되는 값 선정
         int flagIndex = 0, flagValue = expense[0][0];
         for (int i = 1; i < 3; i++) {
@@ -49,9 +48,10 @@ public class BJ_1149 {
                     }
                     else {
                         if (flagValue < expense[i][j]) {
-                            min += flagValue;
                             flagIndex = (flagIndex == 0) ? 1 : 0;
-                        } else {
+                            min += flagValue;
+                        }
+                        else {
                             min += expense[i][j];
                             flagIndex = j;
                         }
