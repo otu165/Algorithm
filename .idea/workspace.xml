@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_2941">
+  <component name="RunManager" selected="Application.BJ_1978">
     <configuration name="BJ_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BJ_1065" />
       <module name="JavaStudy" />
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2445" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bronze.BJ_2445" />
+    <configuration name="BJ_1978" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="silver.BJ_1978" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bronze.*" />
+          <option name="PATTERN" value="silver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_1978" />
         <item itemvalue="Application.BJ_2941" />
         <item itemvalue="Application.BJ_1065" />
         <item itemvalue="Application.BJ_10992" />
         <item itemvalue="Application.BJ_10991" />
-        <item itemvalue="Application.BJ_2445" />
       </list>
     </recent_temporary>
   </component>
