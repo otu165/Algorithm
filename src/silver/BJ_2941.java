@@ -22,7 +22,6 @@ public class BJ_2941 {
             while(word.contains(alphabet[i])) {
                 count++;
                 word = word.replaceFirst(alphabet[i], " ");
-                System.out.println("word : " + word);
             }
         }
 
