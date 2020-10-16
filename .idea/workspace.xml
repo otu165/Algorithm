@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_10992.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/BJ_11721.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1149.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1929.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1929.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/silver/BJ_1149.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/silver/BJ_1149.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_1929">
-    <configuration name="BJ_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="silver.BJ_1065" />
+  <component name="RunManager" selected="Application.BJ_1149">
+    <configuration name="BJ_1149" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="silver.BJ_1149" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_1149" />
         <item itemvalue="Application.BJ_1929" />
         <item itemvalue="Application.BJ_2581" />
         <item itemvalue="Application.BJ_1978" />
         <item itemvalue="Application.BJ_2941" />
-        <item itemvalue="Application.BJ_1065" />
       </list>
     </recent_temporary>
   </component>
