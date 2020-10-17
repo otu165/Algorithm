@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/silver/BJ_1018.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_7568.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_7568.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1018.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1018.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/silver/BJ_1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/silver/BJ_1018.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1iroU6Y26UxggMyHjdPZhzqfDBr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
