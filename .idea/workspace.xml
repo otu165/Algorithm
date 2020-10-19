@@ -41,13 +41,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_1018">
+  <component name="RunManager" selected="Application.BJ_10872">
     <configuration name="BJ_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BJ_1018" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="silver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_10872" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_10872" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_2581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="silver.BJ_2581" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="silver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BJ_7568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BJ_7568" />
       <module name="JavaStudy" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_10872" />
         <item itemvalue="Application.BJ_1018" />
         <item itemvalue="Application.BJ_7568" />
         <item itemvalue="Application.BJ_1149" />
         <item itemvalue="Application.BJ_1929" />
-        <item itemvalue="Application.BJ_2581" />
       </list>
     </recent_temporary>
   </component>
