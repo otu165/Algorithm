@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bronze/BJ_10870.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1018.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/silver/BJ_1018.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/bronze/BJ_10872.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/bronze/BJ_10872.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +42,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BJ_10872">
+  <component name="RunManager" selected="Application.BJ_10870">
     <configuration name="BJ_1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BJ_1018" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="silver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ_10870" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bronze.BJ_10870" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BJ_1929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="silver.BJ_1929" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="silver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BJ_7568" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BJ_7568" />
       <module name="JavaStudy" />
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ_10870" />
         <item itemvalue="Application.BJ_10872" />
         <item itemvalue="Application.BJ_1018" />
         <item itemvalue="Application.BJ_7568" />
         <item itemvalue="Application.BJ_1149" />
-        <item itemvalue="Application.BJ_1929" />
       </list>
     </recent_temporary>
   </component>
