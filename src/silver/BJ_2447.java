@@ -44,7 +44,7 @@ public class BJ_2447 {
 
             return;
         }
-        
+
         // 블록이 더 나누어지는 경우
         int size = n / 3;
         int count = 0; // count = 5인 경우, 공백에 해당함
