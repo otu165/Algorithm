@@ -15,21 +15,23 @@ public class BJ_1018 {
         int m = Integer.parseInt(st.nextToken());
 
         //풀이
-        String[][] matrix = new String[n][m];
+        char[][] matrix = new char[n][m];
 
-        int[][] comparisonA = new int[n][m]; //WBWB + BWBW
-        int[][] comparisonB = new int[n][m]; //BWBW + WBWB
-        initializeComparison(br, comparisonA, comparisonB);
+        for (int i = 0; i < n; i++) {
+            String line = br.readLine();
+            for (int j = 0; j < m; j++) {
+                matrix[i][j] = line.charAt(j);
+            }
+        }
 
         int min = Integer.MAX_VALUE;
-
         for (int i = 0; i < n - 7; i++) {
             for (int j = 0; j < m - 7; j++) {
+                int b = getDifferenceB(matrix, i, j);
+                int w = getDifferenceW(matrix, i, j);
 
-                //체스판의 합
-                if (getSum(comparisonA, comparisonB, i, j) < min) {
-                    min = getSum(comparisonA, comparisonB, i, j);
-                }
+                int min_2 = b > w ? w : b;
+                min = min > min_2 ? min_2 : min;
             }
         }
 
@@ -37,73 +39,73 @@ public class BJ_1018 {
         System.out.println(min);
     }
 
-    public static void initializeComparison(BufferedReader br, int[][] comparisonA, int[][] comparisonB) throws IOException{
-        for (int i = 0; i < comparisonA.length; i++) {
-            String s = br.readLine();
+    private static int getDifferenceB(char[][] matrix, int i, int j) {
 
-            for (int j = 0; j < comparisonA[i].length; j++) {
-                //A : 같으면 0, 다르면 1
-                //B : 같으면 0, 다르면 1
-                String word = String.valueOf(s.charAt(j));
+        int count = 0;
 
-                if (i % 2 == 0) {
-                    if (j % 2 == 0) { //짝 + 짝
-                        if(word.equals("W")) {
-                            comparisonA[i][j] = 0;
-                            comparisonB[i][j] = 1;
-                        }
-                        else {
-                            comparisonA[i][j] = 1;
-                            comparisonB[i][j] = 0;
-                        }
+        for (int n = 0; n < 8; n++) {
+            for (int m = 0; m < 8; m++) {
+                // BW 01
+                // WB 23
+
+                if(n % 2 == 0) {
+                    if (m % 2 == 0) { // B, 3
+                        if(matrix[i+n][j+m] != 'B')
+                            count++;
                     }
-                    else { //짝 + 홀
-                        if (word.equals("B")) {
-                            comparisonA[i][j] = 0;
-                            comparisonB[i][j] = 1;
-                        }
-                        else {
-                            comparisonA[i][j] = 1;
-                            comparisonB[i][j] = 0;
-                        }
+                    else { // W, 2
+                        if(matrix[i+n][j+m] != 'W')
+                            count++;
                     }
                 }
                 else {
-                    if (j % 2 == 0) { //홀 + 짝
-                        if (word.equals("B")) {
-                            comparisonA[i][j] = 0;
-                            comparisonB[i][j] = 1;
-                        }
-                        else {
-                            comparisonA[i][j] = 1;
-                            comparisonB[i][j] = 0;
-                        }
+                    if (m % 2 == 0) { // W, 1
+                        if(matrix[i+n][j+m] != 'W')
+                            count++;
                     }
-                    else { //홀 + 홀
-                        if(word.equals("W")) {
-                            comparisonA[i][j] = 0;
-                            comparisonB[i][j] = 1;
-                        }
-                        else {
-                            comparisonA[i][j] = 1;
-                            comparisonB[i][j] = 0;
-                        }
+                    else { // B, 0
+                        if(matrix[i+n][j+m] != 'B')
+                            count++;
                     }
                 }
             }
         }
+
+        return count;
     }
 
-    public static int getSum(int[][] comparisonA, int[][] comparisonB, int x, int y) {
-        int sumA = 0, sumB = 64;
+    private static int getDifferenceW(char[][] matrix, int i, int j) {
 
-        for (int i = x; i < 8 + x; i++) {
-            for (int j = y; j < 8 + y; j++) {
-                sumA += comparisonA[i][j];
-                sumB -= comparisonB[i][j];
+        int count = 0;
+
+        for (int n = 0; n < 8; n++) {
+            for (int m = 0; m < 8; m++) {
+                // WB 01
+                // BW 23
+
+                if(n % 2 == 0) {
+                    if (m % 2 == 0) { // W, 3
+                        if(matrix[i+n][j+m] != 'W')
+                            count++;
+                    }
+                    else { // B, 2
+                        if(matrix[i+n][j+m] != 'B')
+                            count++;
+                    }
+                }
+                else {
+                    if (m % 2 == 0) { // B, 1
+                        if(matrix[i+n][j+m] != 'B')
+                            count++;
+                    }
+                    else { // W, 0
+                        if(matrix[i+n][j+m] != 'W')
+                            count++;
+                    }
+                }
             }
         }
 
-        return sumA < sumB ? sumA : sumB;
+        return count;
     }
 }
