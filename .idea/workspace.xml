@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/silver/BOJ_9012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/silver/BOJ_4949.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.BOJ_9012">
+  <component name="RunManager" selected="Application.BOJ_4949">
     <configuration name="BOJ_10773" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="silver.BOJ_10773" />
       <module name="JavaStudy" />
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="silver.BOJ_1181" />
+    <configuration name="BOJ_4949" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="silver.BOJ_4949" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_4949" />
         <item itemvalue="Application.BOJ_9012" />
         <item itemvalue="Application.BOJ_10773" />
         <item itemvalue="Application.BOJ_10828" />
         <item itemvalue="Application.BOJ_10814" />
-        <item itemvalue="Application.BOJ_1181" />
       </list>
     </recent_temporary>
   </component>
@@ -139,22 +139,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="806" height="239" key="GridCell.Tab.0.bottom" timestamp="1604042504030">
+    <state width="990" height="109" key="GridCell.Tab.0.bottom" timestamp="1604045023570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="806" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604042504030" />
-    <state width="806" height="239" key="GridCell.Tab.0.center" timestamp="1604042504030">
+    <state width="990" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604045023570" />
+    <state width="990" height="109" key="GridCell.Tab.0.center" timestamp="1604045023570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="806" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604042504030" />
-    <state width="806" height="239" key="GridCell.Tab.0.left" timestamp="1604042504029">
+    <state width="990" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604045023570" />
+    <state width="990" height="109" key="GridCell.Tab.0.left" timestamp="1604045023570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="806" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604042504029" />
-    <state width="806" height="239" key="GridCell.Tab.0.right" timestamp="1604042504030">
+    <state width="990" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604045023570" />
+    <state width="990" height="109" key="GridCell.Tab.0.right" timestamp="1604045023570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="806" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604042504030" />
+    <state width="990" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604045023570" />
     <state width="788" height="109" key="GridCell.Tab.1.bottom" timestamp="1603097684335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
