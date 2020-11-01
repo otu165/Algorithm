@@ -6,37 +6,36 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_15650 {
-    public static int[] result;
-    public static int N, M;
-    public static StringBuilder sb = new StringBuilder();
+    static StringBuilder sb = new StringBuilder();
+    static int[] array;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
-        result = new int[M];
+        array = new int[M];
 
-        dfs(1, 0);
+        dfs(N, M, 0,1);
 
-        // 중복 X + 사전식 출력
         System.out.println(sb);
     }
 
-    public static void dfs(int start, int depth) {
+    public static void dfs(int N, int M, int depth, int start) {
         if(depth == M) {
-            for(int i : result)
-                sb.append(i + " ");
-
+            for(int num : array)
+                sb.append(num + " ");
             sb.append("\n");
+
             return;
         }
 
+        // 반복 + 재귀
         for (int i = start; i <= N; i++) {
-            result[depth] = i;
-            dfs(i + 1, depth + 1);
+            array[depth] = i;
+            dfs(N, M, depth + 1, i + 1);
         }
     }
 }
