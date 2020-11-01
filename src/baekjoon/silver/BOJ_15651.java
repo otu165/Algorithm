@@ -4,37 +4,38 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class BOJ_15651 {
-    public static StringBuilder sb = new StringBuilder();
-    public static int[] result;
-    public static int N, M;
+    static StringBuilder sb = new StringBuilder();
+    static int[] result;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
         result = new int[M];
 
-        dfs(0);
+        dfs(N, M, 0);
 
-        // 숫자 중복 가능, 사전순 출력
+        // 중복 X + 사전순
         System.out.println(sb);
     }
 
-    public static void dfs(int depth) {
+    public static void dfs(int N, int M, int depth) {
         if(depth == M) {
-            for(int i : result) {
-                sb.append(i + " ");
-            }
+            for(int num : result)
+                sb.append(num + " ");
             sb.append("\n");
+
             return;
         }
 
+        // 반복 + 재귀
         for (int i = 0; i < N; i++) {
             result[depth] = i + 1;
-            dfs(depth + 1);
+            dfs(N, M, depth + 1);
         }
+
     }
 }

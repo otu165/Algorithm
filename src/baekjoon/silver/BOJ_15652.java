@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_15652 {
-    public static StringBuilder sb = new StringBuilder();
-    public static int[] result;
-    public static int N, M;
+    static StringBuilder sb = new StringBuilder();
+    static int N, M;
+    static int[] result;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,26 +19,24 @@ public class BOJ_15652 {
 
         result = new int[M];
 
-        dfs(1, 0);
+        dfs(0, 1);
 
-        // 중복 가능 + 비내림차순 정렬
         System.out.println(sb);
     }
 
-    // 내 직전의 수보다 같거나 커야 함
-    public static void dfs(int start, int depth) {
+    public static void dfs(int depth, int start) {
         if(depth == M) {
-            for(int i : result)
-                sb.append(i + " ");
-
+            for(int num : result)
+                sb.append(num + " ");
             sb.append("\n");
+
             return;
         }
 
-        // 재귀 반복
+        // 반복 + 재귀
         for (int i = start; i <= N; i++) {
             result[depth] = i;
-            dfs(i, depth+1);
+            dfs(depth + 1, i);
         }
     }
 }
