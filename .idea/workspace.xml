@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/PG_add_two_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/PG_mock_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +36,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.PG_add_two_numbers">
-    <configuration name="BOJ_15652" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.silver.BOJ_15652" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.silver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PG_mock_test">
     <configuration name="PG_add_two_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_1.PG_add_two_numbers" />
       <module name="JavaStudy" />
@@ -89,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PG_mock_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.PG_mock_test" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PG_price_of_stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_2.PG_price_of_stock" />
       <module name="JavaStudy" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PG_mock_test" />
         <item itemvalue="Application.PG_add_two_numbers" />
         <item itemvalue="Application.PG_marathon" />
         <item itemvalue="Application.PG_develop_function" />
         <item itemvalue="Application.PG_price_of_stock" />
-        <item itemvalue="Application.BOJ_15652" />
       </list>
     </recent_temporary>
   </component>
@@ -139,22 +139,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1495" height="108" key="GridCell.Tab.0.bottom" timestamp="1604266351210">
+    <state width="970" height="89" key="GridCell.Tab.0.bottom" timestamp="1604339976643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604266351210" />
-    <state width="1495" height="108" key="GridCell.Tab.0.center" timestamp="1604266351209">
+    <state width="970" height="89" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604339976643" />
+    <state width="970" height="89" key="GridCell.Tab.0.center" timestamp="1604339976643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604266351209" />
-    <state width="1495" height="108" key="GridCell.Tab.0.left" timestamp="1604266351209">
+    <state width="970" height="89" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604339976643" />
+    <state width="970" height="89" key="GridCell.Tab.0.left" timestamp="1604339976642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604266351209" />
-    <state width="1495" height="108" key="GridCell.Tab.0.right" timestamp="1604266351209">
+    <state width="970" height="89" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604339976642" />
+    <state width="970" height="89" key="GridCell.Tab.0.right" timestamp="1604339976643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604266351209" />
+    <state width="970" height="89" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604339976643" />
     <state width="1495" height="108" key="GridCell.Tab.1.bottom" timestamp="1604266351210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
