@@ -2,7 +2,7 @@ package study;
 
 public class BackTracking {
     public static void main(String[] args) {
-        // 백트래킹 (완전 탐색에 포함됨)
+        // 백트래킹 (dfs + pruning)
         // 주로 재귀, dfs(깊이 우선 탐색) 과 함께 사용됨
 
         // 원리?
