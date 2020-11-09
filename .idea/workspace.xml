@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/silver/BOJ_1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/silver/BOJ_2178.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/BackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/BackTracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/baekjoon/silver/BOJ_1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/baekjoon/silver/BOJ_1260.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.BOJ_1260">
+  <component name="RunManager" selected="Application.BOJ_2178">
     <configuration name="BJ_9663" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.gold.BJ_9663" />
       <module name="JavaStudy" />
@@ -77,6 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.silver.BOJ_2178" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.silver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.silver.BOJ_2606" />
       <module name="JavaStudy" />
@@ -90,26 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PG_number_k" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.PG_number_k" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2178" />
         <item itemvalue="Application.BOJ_1260" />
         <item itemvalue="Application.BOJ_2606" />
         <item itemvalue="Application.BOJ_1003" />
         <item itemvalue="Application.BJ_9663" />
-        <item itemvalue="Application.PG_number_k" />
       </list>
     </recent_temporary>
   </component>
@@ -140,38 +140,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1495" height="108" key="GridCell.Tab.0.bottom" timestamp="1604956142321">
+    <state x="447" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604957396173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604956142321" />
-    <state width="1495" height="108" key="GridCell.Tab.0.center" timestamp="1604956142321">
+    <state x="447" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604957396173" />
+    <state width="707" height="290" key="GridCell.Tab.0.bottom" timestamp="1604962790236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604956142321" />
-    <state width="1495" height="108" key="GridCell.Tab.0.left" timestamp="1604956142321">
+    <state width="707" height="290" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604962790236" />
+    <state width="707" height="290" key="GridCell.Tab.0.center" timestamp="1604962790236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604956142321" />
-    <state width="1495" height="108" key="GridCell.Tab.0.right" timestamp="1604956142321">
+    <state width="707" height="290" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604962790236" />
+    <state width="707" height="290" key="GridCell.Tab.0.left" timestamp="1604962790235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604956142321" />
-    <state width="1495" height="83" key="GridCell.Tab.1.bottom" timestamp="1604956131078">
+    <state width="707" height="290" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604962790235" />
+    <state width="707" height="290" key="GridCell.Tab.0.right" timestamp="1604962790236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="83" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604956131078" />
-    <state width="1495" height="83" key="GridCell.Tab.1.center" timestamp="1604956131078">
+    <state width="707" height="290" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604962790236" />
+    <state width="707" height="46" key="GridCell.Tab.1.bottom" timestamp="1604962782422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="83" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604956131078" />
-    <state width="1495" height="83" key="GridCell.Tab.1.left" timestamp="1604956131078">
+    <state width="707" height="46" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604962782422" />
+    <state width="707" height="46" key="GridCell.Tab.1.center" timestamp="1604962782422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="83" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604956131078" />
-    <state width="1495" height="83" key="GridCell.Tab.1.right" timestamp="1604956131078">
+    <state width="707" height="46" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604962782422" />
+    <state width="707" height="46" key="GridCell.Tab.1.left" timestamp="1604962782422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1495" height="83" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604956131078" />
+    <state width="707" height="46" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604962782422" />
+    <state width="707" height="46" key="GridCell.Tab.1.right" timestamp="1604962782422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="707" height="46" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604962782422" />
     <state x="273" y="23" width="1169" height="708" key="SettingsEditor" timestamp="1604415166662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -196,6 +200,11 @@
           <url>file://$PROJECT_DIR$/src/baekjoon/silver/BOJ_1021.java</url>
           <line>31</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/silver/BOJ_2178.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
