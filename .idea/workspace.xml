@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f906d-d14d-4b56-964f-6fcfe28182e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/silver/BOJ_4963.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/bronze/BOJ_2292.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +36,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Application.BOJ_4963">
+  <component name="RunManager" selected="Application.BOJ_2292">
     <configuration name="BOJ_14888" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.silver.BOJ_14888" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.silver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ_2292" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.bronze.BOJ_2292" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.bronze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,26 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PG_ternary_notation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.PG_ternary_notation" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2292" />
         <item itemvalue="Application.BOJ_4963" />
         <item itemvalue="Application.BOJ_8958" />
         <item itemvalue="Application.BOJ_7576" />
         <item itemvalue="Application.BOJ_14888" />
-        <item itemvalue="Application.PG_ternary_notation" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +151,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605439692168" />
-    <state width="936" height="170" key="GridCell.Tab.0.bottom" timestamp="1605614360189">
+    <state width="725" height="137" key="GridCell.Tab.0.bottom" timestamp="1605625151995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605614360189" />
-    <state width="936" height="170" key="GridCell.Tab.0.center" timestamp="1605614360189">
+    <state width="725" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605625151995" />
+    <state width="725" height="137" key="GridCell.Tab.0.center" timestamp="1605625151994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605614360189" />
-    <state width="936" height="170" key="GridCell.Tab.0.left" timestamp="1605614360189">
+    <state width="725" height="137" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605625151994" />
+    <state width="725" height="137" key="GridCell.Tab.0.left" timestamp="1605625151994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605614360189" />
-    <state width="936" height="170" key="GridCell.Tab.0.right" timestamp="1605614360189">
+    <state width="725" height="137" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605625151994" />
+    <state width="725" height="137" key="GridCell.Tab.0.right" timestamp="1605625151995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605614360189" />
+    <state width="725" height="137" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605625151995" />
     <state width="1495" height="389" key="GridCell.Tab.1.bottom" timestamp="1605440463934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
