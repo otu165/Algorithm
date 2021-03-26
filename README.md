@@ -6,7 +6,7 @@
 
 ## Rules
 - Monday 19:00 - 21:00
-- Solve ___6 problems___ a week
+- Solve ___3 problems___ a week
 
 <br />
 
