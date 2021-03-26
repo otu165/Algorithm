@@ -38,7 +38,7 @@ strip() 은 문자열 앞, 뒤의 공백을 제거한다.
 
 <br/>
 
-## 조건부 표현식
+## 2. 조건부 표현식
 
 조건문을 한 문장으로 사용하는 방식
 
@@ -49,7 +49,7 @@ grade = "A" if score > 90 else "F"
 
 <br/>
 
-## List Comprehension
+## 3. List Comprehension
 
 문법 : [expression for item in list if conditional]
 
@@ -68,7 +68,7 @@ arr = ['abc', 'def', 'ghi']
 
 <br/>
 
-## Nested Comprehension
+## 4. Nested Comprehension
 
 ```
 # 1.
