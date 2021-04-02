@@ -140,3 +140,37 @@ X, Y = zip(*z)
 print(X)  # (1, 2, 3)
 print(Y)  # ('a', 'b', 'c')
 ```
+
+## 8. Call-by-value & Call-by-reference
+
+```
+# 인자로 넘기는 객체의 성향(mutable or immutable)에 따라 자동으로 결정됨
+
+def plus(list):
+	list[0] += 1
+
+list = [0]
+plus(list)
+
+print(list[0])  # 1
+```
+
+<br/>
+
+## 9. Index
+
+파이썬은 **Negative Index** 를 지원함.
+```
+list = ['a', 'b', 'c']
+```
+<div>
+
+| index | 0 | 1 | 2 |
+|--|--|--|--|
+|value| a | b | c |
+
+| index | -3 | -2 | -1 |
+|--|--|--|--|
+|value| a | b | c |
+
+</div>
