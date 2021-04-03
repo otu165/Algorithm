@@ -3,7 +3,7 @@
 
 ## 1. 입력
 
-```
+``` Python
 # 입력 : 정수
 import sys
 
@@ -14,7 +14,7 @@ number = input
 
 <br/>
 
-```
+``` Python
 # 입력 : 정수 정수
 import sys
 
@@ -24,7 +24,7 @@ a, b = map(int, input.split())
 
 <br/>
 
-```
+``` Python
 # 입력 : 문자열 n줄
 import sys
 
@@ -42,7 +42,7 @@ strip() 은 문자열 앞, 뒤의 공백을 제거한다.
 
 조건문을 한 문장으로 사용하는 방식
 
-```
+``` Python
 score = 80
 grade = "A" if score > 90 else "F"
 ```
@@ -53,7 +53,7 @@ grade = "A" if score > 90 else "F"
 
 문법 : [expression for item in list if conditional]
 
-```
+``` Python
 # 1.
 [i for i in range(5)]  # [0, 1, 2, 3, 4]
 
@@ -70,7 +70,7 @@ arr = ['abc', 'def', 'ghi']
 
 ## 4. Nested Comprehension
 
-```
+``` Python
 # 1.
 [[] for i in range(3)]  # [[], [], []]
 
@@ -91,7 +91,7 @@ arr = ['abc', 'def', 'ghi']
 ## 6. Tuple Comprehension
 
 제너레이터를 생성한다.
-```
+``` Python
 a = (i**2 for i in range(3))
 
 type(a)  # <class 'generator'>
@@ -102,7 +102,7 @@ type(a)  # <class 'generator'>
 
 ## 7. Zip
 
-```
+``` Python
 # zip 을 이용한 데이터 묶음
 x = "12"
 y = "abc"
@@ -115,7 +115,7 @@ for i in zip(x, y, z):
 
 <br/>
 
-```
+``` Python
 # * 을 이용한 데이터 unpacking
 d_list = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
 
@@ -129,7 +129,7 @@ for i in zip(*d_list):  # GOOD!
 
 <br/>
 
-```
+``` Python
 # zip 을 이용한 분리
 x = [1, 2, 3]
 y = ['a', 'b', 'c']
@@ -143,7 +143,7 @@ print(Y)  # ('a', 'b', 'c')
 
 ## 8. Call-by-value & Call-by-reference
 
-```
+``` Python
 # 인자로 넘기는 객체의 성향(mutable or immutable)에 따라 자동으로 결정됨
 
 def plus(list):
@@ -158,9 +158,10 @@ print(list[0])  # 1
 <br/>
 
 ## 9. Index
-
+	
 파이썬은 **Negative Index** 를 지원함.
-```
+
+``` Python
 list = ['a', 'b', 'c']
 ```
 <div>
@@ -174,3 +175,28 @@ list = ['a', 'b', 'c']
 |value| a | b | c |
 
 </div>
+
+## 10. Getter / Setter
+``` Python
+class Person:
+	def __init__(self):
+		self.name = ""
+	
+	def get_name(self):
+		return self.name
+
+	def set_name(self, name):
+		self.name = name
+
+	@property  # getter
+	def name(self):
+		return "I am " + self.name
+	
+	@name.setter
+	def name(self, name):
+	self.name = name[0].upper() + name[1:]
+
+```
+**데코레이터**를 이용하면 좋다.
+
+<br/>
