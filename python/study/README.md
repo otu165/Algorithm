@@ -200,3 +200,38 @@ class Person:
 **데코레이터**를 이용하면 좋다.
 
 <br/>
+
+## 11. 람다표현식
+
+``` Python
+# 기존 함수표현식
+def add(a, b):
+	return a + b
+
+print(add(1, 2))  # 3
+
+# 람다표현식
+print((lambda a, b: a + b)(1, 2))  # 3
+```
+<br/>
+
+``` Python
+# 리스트 정렬에 람다표현식 이용
+list = [("a", 1), ("c", 3), ("b", 2)]
+
+print(sorted(list, key=lambda e: e[1]))  # [("a", 1), ("b", 2), ("c", 3)]
+```
+<br/>
+
+``` Python
+# map과 람다 이용하여 합 구하기
+list_1 = [1, 2, 3, 4, 5]
+list_2 = [5, 4, 3, 2, 1]
+
+print(list(map(lambda a, b: a + b, list_1, list_2)))  # [6, 6, 6, 6, 6]
+```
+
+일회성 함수에 람다를 이용하면 좋다.
+
+<br/>
+
