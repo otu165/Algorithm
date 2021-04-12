@@ -66,3 +66,46 @@ print(list(product(ball_list, repeat=3)))
 ```
 
 <br/>
+
+
+
+## DFS (Depth-First Search)
+
+``` python
+def dfs(node):  # node = 현재 방문할 노드
+	visited[node] = True
+	print(v, end=' ')
+	
+	# 현재 노드와 연결된 다른 노드를 재귀적으로 방문
+	for i in graph[node]:  # graph 리스트는 인접 리스트 형식으로 표현된 그래프
+		if not visited[i]:  # i 노드를 방문하지 않았다면
+			dfs(i)  # 방문
+```
+
+- **깊이 우선** 그래프 탐색 알고리즘
+- **스택 자료구조** 또는 **재귀 함수**를 이용함
+
+<br/>
+
+## BFS (Breadth-First Search)
+``` python
+from collections import deque
+
+def bfs(node):  # start = 첫 시작점이 되는 노드
+	q = deque()
+	q.append(node)  # 큐에 시작 노드를 넣어줌
+	
+	while q:  # q 에 남은 노드가 없을 때까지 반복
+		node = q.popleft()  # 지금 방문한 노드
+		print(node, end=' ')
+		
+		for i in graph[x]:  # 인접 노드들에 대하여
+			if not visited[i]:  # 방문하지 않은 노드가 있다면
+				q.append(i)  # 방문하기 위해 큐에 집어넣고
+				visited[i] = True  # 해당 노드를 방문했다고 표시
+```
+
+- **너비 우선** 그래프 탐색 알고리즘
+- **큐 자료구조**를 이용함
+
+<br/>
