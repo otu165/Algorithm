@@ -109,3 +109,66 @@ def bfs(node):  # start = 첫 시작점이 되는 노드
 - **큐 자료구조**를 이용함
 
 <br/>
+
+## 선택정렬(Selection Sort)
+``` python
+arr = [5, 3, 1, 2, 4]
+
+for i in range(len(arr) - 1):
+	idx = i
+	for j in range(i + 1, len(arr)):
+		if arr[j] < arr[idx]:
+			idx = j
+			
+	arr[i], arr[idx] = arr[idx], arr[i]
+	
+print(arr)  # [1, 2, 3, 4, 5]
+```
+- 처리되지 않은 데이터 중 가장 작은 데이터와, 맨 앞의 데이터를 바꾸는 것을 반복함.
+- 시간복잡도 : O(N^2)
+
+<br/>
+
+## 삽입정렬(Insertion Sort)
+``` python
+arr = [5, 3, 1, 2, 4]
+
+for i in range(1, len(arr)):
+	for j in range(i, 0, -1):
+		if arr[j] < arr[j - 1]:
+			arr[j], arr[j - 1] = arr[j - 1], arr[j]
+		else:
+			break
+			
+print(arr)  # [1, 2, 3, 4, 5]
+		
+```
+- 처리되지 않은 데이터를 하나씩 골라 적절한 위치에 삽입한다.
+- 평균 시간복잡도 : O(N^2), 최선의 경우 시간복잡도 : O(N)
+
+<br/>
+
+## 퀵 정렬(Quick Sort)
+``` python
+def quick_sort(arr):
+	if len(arr) <= 1:
+		return arr
+	
+	pivot = arr[0]
+	rest = arr[1:]
+	
+	left = [x for x in rest if x < pivot]
+	right = [x for x in rest if x >= pivot]
+	
+	return quick_sort(left) + list(pivot) + quick_sort(right)
+
+
+arr = [5, 3, 1, 2, 4]
+print(quick_sort(arr))  # [1, 2, 3, 4, 5]
+
+```
+- 기준 데이터(pivot)를 설정하고, 그 기준보다 큰 데이터와 작은 데이터의 위치를 바꾸는 방법
+- 평균 시간복잡도 : O(NlogN), 최악의 경우 시간복잡도 : O(N^2)
+
+<br/>
+
