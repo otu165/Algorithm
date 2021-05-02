@@ -2,9 +2,9 @@
 
 >  📚 algorithm study for preparing coding-test
 
+[![solved.ac profile](http://mazassumnida.wtf/api/generate_badge?boj=otu165)](https://solved.ac/otu165)
+
 <br/>
-
-
 
 ## Rules
 - use ```Python```
