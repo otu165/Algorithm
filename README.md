@@ -9,7 +9,7 @@
 ## Rules
 - ✔️ : Solved it myself
 - 🔺 : Got help and solved
-- ❌ : Could not solve
+- ❌ : failed to solve
 
 <br />
 
