@@ -1,14 +1,15 @@
 # Algorithm
 
->  📚 algorithm study for preparing coding-test
+>  📚 Algorithm study for preparing coding-test
 
 [![solved.ac profile](http://mazassumnida.wtf/api/generate_badge?boj=otu165)](https://solved.ac/otu165)
 
 <br/>
 
 ## Rules
-- use ```Python```
-- Solve at least ___3 problems___ a week
+- ✔️ : Solved it myself
+- 🔺 : Got help and solved
+- ❌ : Could not solve
 
 <br />
 
