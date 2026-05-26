@@ -1,33 +1,39 @@
-''' 올바른 괄호
+""" 올바른 괄호
 
-올바른 괄호 : return True
-올바르지 않은 괄호 : return False
+분류 : 스택, 구현
 
-'''
+전체 단계
+ㄴ 여는 괄호 "(" 가 나오면 스택에 추가
+ㄴ 닫는 괄호 ")" 가 나오면 스택에서 "(" 제거
+    ㄴ 스택이 비어있는데 닫는 괄호가 나오면 "(" 제거 불가능하니 return False
+ㄴ 순회 종료 후 스택이 비어있으면 True
+
+시간복잡도
+ㄴ 문자열 순회 : O(n)
+ㄴ append(), pop() : O(1)
+ㄴ 전체 : O(n)
+
+입출력 예시
+ㄴ s = "()()" / result = True
+ㄴ s = "(()))(" / result = False
+
+"""
 
 
 def solution(s):
+    stack = []
 
-    # 1.
-    if s.count("(") != s.count(")"):
-        return False
-
-    left, right = 0, 0
-    for i in s:
-        if i == '(':
-            left += 1
+    for char in s:
+        if char == "(":
+            stack.append(char)
         else:
-            right += 1
+            if not stack: # 스택이 비어있으면
+                return False
 
-        # 2.
-        if left < right:
-            return False
+            stack.pop()
 
-    # 3.
-    if left != right:
-        return False
-
-    return True
+    return not stack
 
 
-print(solution("(()("))
+
+print(solution("(()))("))
